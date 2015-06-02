@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BattleCars.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3603C889-FE60-4A8D-AF0B-C3548D637197}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleCars.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BattleCarsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7CC9AD1B-77EC-48C7-9A90-7DAE81A6B28F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BattleCars">
+			<UniqueIdentifier>{27FC0CB7-36EC-45E3-BAEC-9C9C81A1CAF7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BattleCars\BattleCars.Build.cs">
+			<Filter>Source\BattleCars</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCars.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCars.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCarsGameMode.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCarsGameMode.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCarsHud.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCarsHud.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCarsPawn.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCarsPawn.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCarsWheelFront.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCarsWheelFront.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BattleCars\BattleCarsWheelRear.cpp">
+			<Filter>Source\BattleCars</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BattleCars\BattleCarsWheelRear.h">
+			<Filter>Source\BattleCars</Filter>
+		</ClInclude >
+		<Filter Include="Source\BattleCars\Resources">
+			<UniqueIdentifier>{ED507DDA-3900-407B-8761-A521E1EB1C4F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\BattleCars\Resources\Windows">
+			<UniqueIdentifier>{E09BC889-9733-434C-9CFB-7F5FE3244832}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\BattleCars\Resources\Windows\BattleCars.rc">
+			<Filter>Source\BattleCars\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
