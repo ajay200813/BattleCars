@@ -61,6 +61,7 @@ DerivedDataCache/*
 .ctrlp_cache/
 
 # exclude from rule
+!UE4Editor-BattleCars.dll
 
 
 
